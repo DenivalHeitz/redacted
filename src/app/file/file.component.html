@@ -1,0 +1,14 @@
+
+<div class="container">
+    <form class="form" [formGroup]="redactedForm" (submit)="getFileRedacted()">
+        <mat-form-field appearance="fill">
+            <mat-label>Redacted Text</mat-label>
+            <input matInput class="form-field" formControlName="redactedPattern" type="text">
+        </mat-form-field>
+        <button mat-raised-button color="primary" type="submit">Redact</button>
+        <button mat-raised-button color="warning" (click)="getFile(fileName)">Unclassify</button>
+    </form>
+    <div class="child">
+        <p>{{fileText}}</p>
+    </div>
+</div>

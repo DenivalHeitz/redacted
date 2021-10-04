@@ -1,0 +1,25 @@
+.child {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+form {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 100%
+}
+
+mat-form-field {
+  width: 70%;
+}
+
+button {
+  margin-left: 1%;
+  /* margin-right: 5%; */
+  height: 100%;
+  font-size: medium;
+}
